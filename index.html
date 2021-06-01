@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Porfolio Website</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="css/fontawesome/all.css">
+        <!-- fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:0,400,600,900|Source+Sans+Pro:0,300,500,900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="images/casslogo.png" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#services" class="nav__link">
+                            My Services
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            About Me
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#work" class="nav__link">
+                            My Work
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Cassandra Austin</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Full-Stack Dev</p>
+            <img src="images/headshot_001.jpg" alt="a picture of Cassandra Austin smiling" class="intro__img">
+        </section>
+
+        <!-- My Services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Design + Development</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit quod blanditiis officia vel laborum nihil!</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>E-Commerce</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae unde et totam animi dolore iusto tenetur voluptates. Itaque, a vitae.</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>WordPress</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam consequatur animi enim dolor? Placeat iste officia perspiciatis excepturi minus earum.</p>
+                </div> <!-- / service -->
+            </div> <!-- / services -->
+
+            <a href="#work" class="btn">My Work</a>
+        </section>
+
+        <!-- About Me-->
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">Who I am</h2>
+            <p class="section__subtitle section__subtitle--about">Designer & Developer based out of Las Vegas</p>
+
+            <div class="about-me__body">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error cum accusamus sequi voluptatibus corporis nam inventore expedita non amet possimus, numquam, placeat voluptate, itaque minima vero cupiditate molestiae quas ex.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo recusandae id nam cum praesentium iusto ea voluptas!</p>
+
+                <img src="images/me.jpg" alt="Cassandra posing and smiling in the mirror" class="about-me__img">
+            </div>
+        </section>
+
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title">My Work</h2>
+            <p class="section__subtitle">A selection of my range of work</p>
+
+            <div class="portfolio">
+
+                <!-- Porfolio item 01 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="images/portfolio-01.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Porfolio item 02 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="images/portfolio-02.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Porfolio item 03 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="images/portfolio-03.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Porfolio item 04 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="images/portfolio-04.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Porfolio item 05 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="images/portfolio-05.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Porfolio item 06 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="images/portfolio-06.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Porfolio item 07 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="images/portfolio-07.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Porfolio item 08 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="images/portfolio-08.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Porfolio item 09 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="images/portfolio-09.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Porfolio item 10 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="images/portfolio-10.jpg" alt="" class="portfolio__img">
+                </a>
+            </div>
+        </section>
+
+
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- replace with your own email address -->
+            <a href="mailto:cassandra.austin@cassluvs2code.com" class="footer__link">cassandra.austin@cassluvs2code.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a href="https://codepen.io/cassluvs2code" class="social-list__link">
+                        <i class="fab fa-codepen fa-5x fa-fw"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a href="https://cassluvs2code.com/" class="social-list__link">
+                        <i class="fab fa-dribbble fa-5x fa-fw"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a href="https://twitter.com/cassluvs2code83" class="social-list__link">
+                        <i class="fab fa-twitter fa-5x fa-fw"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a href="https://github.com/cassluvs2code" class="social-list__link">
+                        <i class="fab fa-github fa-5x fa-fw"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        <script src="js/index.js"></script>
+    </body>
+</html>
